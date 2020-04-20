@@ -186,15 +186,20 @@ body {
     margin: 0 auto;
 }
 
-.brand-wrap > img {
+/* .brand-wrap > img {
     margin-bottom: 40px;
-}
+} */
 
 .brand-wrap ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+}
+
+.brand-wrap li:first-of-type {
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 /* Works */
